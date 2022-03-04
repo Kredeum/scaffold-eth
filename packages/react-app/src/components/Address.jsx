@@ -76,7 +76,11 @@ export default function Address(props) {
   return (
     <span>
       <span style={{ verticalAlign: "middle" }}>
-        <Blockies seed={address.toLowerCase()} size={8} scale={props.fontSize ? props.fontSize / 7 : 4} />
+        <img
+          alt="icon"
+          src="https://ipfs.io/ipfs/QmRSoHTEFX7PiBgsUTZbyh2TDBCN8nRdWRgv7TfLJkUoy6/7108.png"
+          style={{ height: "30px", "border-radius": "5px" }}
+        />
       </span>
       <span style={{ verticalAlign: "middle", paddingLeft: 5, fontSize: props.fontSize ? props.fontSize : 28 }}>
         {props.onChange ? (
